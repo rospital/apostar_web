@@ -1,0 +1,31 @@
+@import '../../base.scss';
+
+.root{
+  display: flex;
+  background-color: #fff;
+  align-items: stretch;
+  line-height: $header-width;
+  height: $header-width;
+  width: 100%;
+}
+
+.logo{
+  margin: 0;
+  font-size: 18px;
+  color: $primary-color-dark;
+}
+
+.column-left{
+  width: $column-left;
+  text-align: center;
+}
+
+.column-right{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  padding: 0 30px;
+  font-size: .9em;
+  color: $grey-color;
+}

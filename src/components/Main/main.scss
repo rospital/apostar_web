@@ -1,0 +1,30 @@
+@import '../../base.scss';
+
+.root{
+  display: flex;
+  background-color: $soft-color;
+  align-items:stretch;
+  width: 100%;
+  min-height: 100%;
+}
+
+@media all and (min-width: 800px) {
+  .root {
+    flex: 2 0px;
+    order: 2;
+  }
+}
+
+.column-left{
+  // background-color: $grey-soft-color;
+  // width: $column-left;
+  // text-align: center;
+
+}
+
+
+.column-right{
+  // display: flex;
+  // justify-content: flex-end;
+  // width: 100%;
+}

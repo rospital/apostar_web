@@ -1,0 +1,138 @@
+$fa-font-path: "../../../node_modules/font-awesome/fonts";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
+
+@font-face {
+    font-family: 'LatoHairline';
+    src: url('../../assets/fonts/lato/lato-hairline-webfont.eot');
+    src: url('../../assets/fonts/lato/lato-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/lato/lato-hairline-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/lato/lato-hairline-webfont.woff') format('woff'),
+         url('../../assets/fonts/lato/lato-hairline-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/lato/lato-hairline-webfont.svg#latohairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../../assets/fonts/lato/lato-light-webfont.eot');
+    src: url('../../assets/fonts/lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/lato/lato-light-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/lato/lato-light-webfont.woff') format('woff'),
+         url('../../assets/fonts/lato/lato-light-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/lato/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../../assets/fonts/lato/lato-regular-webfont.eot');
+    src: url('../../assets/fonts/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/lato/lato-regular-webfont.woff') format('woff'),
+         url('../../assets/fonts/lato/lato-regular-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/lato/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/roboto/Roboto-Regular.eot');
+    src: url('../../assets/fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+         url('../../assets/fonts/roboto/Roboto-Regular.woff') format('woff'),
+         url('../../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$primary-color:#2196f3;
+$primary-color-soft:#42a5f5;
+$primary-color-dark: #193155;
+
+$secondary-color: #9aca40;
+
+$grey-color: #bbb;
+$grey-soft-color: #d8e3eb;
+$grey-dark-color: #6f7d95;
+
+$soft-color: #ebf1f5;
+$dark-color: #2f323a;
+
+$primary-font: 'Roboto';
+$secondary-font: 'LatoRegular';
+$light-font: 'LatoLight';
+$condensed-font: 'LatoHairline';
+
+$border-soft: $grey-soft-color 1px solid;
+
+$header-width: 60px;
+$footer-width: 120px;
+
+$column-left: 250px;
+
+
+body{
+  background-color: $dark-color;
+  font-family: 'LatoRegular';
+  font-size: 16px;
+  height: 100%;
+}
+
+h2{
+  font-size: 18px;
+  color: $primary-color;
+  text-align: center;
+}
+
+.icono{
+  margin-right: 5px;
+}
+
+.active{
+  color: $primary-color;
+}
+
+.active-menu{
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.button {
+  background-color: $secondary-color;
+  color: #fff;
+  border: 1px solid $grey-soft-color;
+  border-radius: 3px;
+  margin: 0 1em;
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-size: 1.5em;
+}
+
+.contenedor{
+  background-color: #fff;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: $grey-dark-color;
+  border: 1px solid $grey-soft-color;
+  width: 500px;
+}
+
+.form{
+  text-align: left;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.label{
+  color: $grey-dark-color;
+}

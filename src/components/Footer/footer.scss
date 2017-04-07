@@ -1,0 +1,13 @@
+@import '../../base.scss';
+
+.root{
+  background-color: $dark-color;
+  flex: 1 100%;
+  color: #fff;
+}
+
+@media all and (min-width: 800px) {
+  .root {
+    order: 3;
+  }
+}

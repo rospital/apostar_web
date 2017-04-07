@@ -1,0 +1,26 @@
+@import '../../base.scss';
+
+.root{
+
+}
+
+.text{
+  border-radius: 5px;
+  border: 1px solid $grey-soft-color;
+  width: 70%;
+  height: 2em;
+  padding: 0.5em;
+  margin: 0.5em 0 1em 0;
+  color: $grey-color;
+  font-size: 1.5em;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.label{
+  font-size: 0.8em;
+  color: $grey-dark-color;
+}

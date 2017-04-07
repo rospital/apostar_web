@@ -1,0 +1,25 @@
+@import '../../base.scss';
+
+.root{
+  //border: $primary-color 1px solid;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: $light-font;
+  padding: 20px;
+  border-bottom: $soft-color .5px solid;
+}
+
+.root:hover{
+  background-color: $soft-color;
+  color: $primary-color;
+}
+
+.root:nth-child(1){
+  border-top: $soft-color .5px solid;
+}
+
+
+.text{
+  margin-left: 10px;
+  font-size: .8em;
+}

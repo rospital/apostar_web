@@ -1,0 +1,23 @@
+@import '../../base.scss';
+
+.root{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position:absolute;
+  margin: 50px auto;
+}
+
+.contenido{
+  align-items: center;
+}
+.text{
+  border-radius: 5px;
+  border: 1px solid $grey-soft-color;
+  width: 90%;
+  height: 1.5em;
+  padding: 0.25em;
+  margin: 0.5em 0 1em 0;
+  color: $grey-color;
+  font-size: 1.5em;
+}

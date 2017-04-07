@@ -1,0 +1,32 @@
+@import '../../base.scss';
+
+.root{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid $grey-soft-color;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  color: $grey-dark-color;
+}
+
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icono{
+  margin: 0 8px;
+  font-size: 1.5em;
+  color: $grey-color;
+}
+
+.icono:hover{
+  color: $dark-color;
+}
+
+.colorActivo{
+  color: $secondary-color;
+}

@@ -1,0 +1,21 @@
+@import '../../base.scss';
+
+.root{
+  min-height: 600px;
+  background-color: $primary-color-dark;
+  color: $grey-soft-color;
+  width: $column-left;
+  order: 1;
+  padding-top: 20px;
+}
+
+@media all and (min-width: 600px) {
+  .root { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .root {
+    flex: 1 auto;
+    order: 1;
+  }
+}
